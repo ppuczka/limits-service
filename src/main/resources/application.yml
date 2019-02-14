@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: limits-service
-limits-service:
-  min: 99
-  max: 9999
