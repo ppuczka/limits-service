@@ -8,3 +8,4 @@ spring:
           uri: file:///Users/FT27XI/Projects/git-localconfig-repo/
 server:
   port: 8888
+
