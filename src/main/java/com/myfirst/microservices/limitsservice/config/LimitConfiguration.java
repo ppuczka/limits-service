@@ -1,4 +1,4 @@
-package com.myfirst.microservices.limitsservice.beans;
+package com.myfirst.microservices.limitsservice.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

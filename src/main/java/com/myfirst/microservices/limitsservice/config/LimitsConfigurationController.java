@@ -1,7 +1,5 @@
-package com.myfirst.microservices.limitsservice;
+package com.myfirst.microservices.limitsservice.config;
 
-import com.myfirst.microservices.limitsservice.beans.LimitConfiguration;
-import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
