@@ -1,16 +1,9 @@
 package com.myfirst.microservices.currencyexchangeservice.config;
 
-import com.datastax.driver.core.Session;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.cassandra.config.*;
-import org.springframework.data.cassandra.core.CassandraOperations;
-import org.springframework.data.cassandra.core.CassandraTemplate;
-import org.springframework.data.cassandra.core.mapping.CassandraMappingContext;
 import org.springframework.data.cassandra.repository.config.EnableCassandraRepositories;
-
-import java.util.Set;
 
 @Configuration
 @EnableCassandraRepositories(basePackages = "com.myfirst.microservices.currencyexchangeservice")
@@ -45,16 +38,11 @@ public class CassandraConfig extends AbstractCassandraConfiguration {
         return port;
     }
 
-
-
-    //    @Override protected String getContactPoints() {
-//        return super.getContactPoints();
-//    }
-
-    //    }
     @Override protected boolean getMetricsEnabled() {
         return false;
     }
+
+
 //    @Override public SchemaAction getSchemaAction() {
 //        return SchemaAction.RECREATE_DROP_UNUSED;
 //    }
@@ -83,6 +71,5 @@ public class CassandraConfig extends AbstractCassandraConfiguration {
 //        cassandraMappingContext.setInitialEntitySet(getInitialEntitySet());
 //        return cassandraMappingContext;
 //    }
-
 
 }
