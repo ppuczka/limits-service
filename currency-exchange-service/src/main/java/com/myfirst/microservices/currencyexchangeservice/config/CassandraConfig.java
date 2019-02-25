@@ -43,33 +43,4 @@ public class CassandraConfig extends AbstractCassandraConfiguration {
     }
 
 
-//    @Override public SchemaAction getSchemaAction() {
-//        return SchemaAction.RECREATE_DROP_UNUSED;
-//    }
-
-//    @Override public String[] getEntityBasePackages() {
-//        return new String[] {"com.myfirst.microservices.currencyexchangeservice.entity"};
-//        }
-//    @Override
-//    protected Set<Class<?>> getInitialEntitySet() throws ClassNotFoundException {
-//        return CassandraEntityClassScanner.scan(getEntityBasePackages());
-//    }
-//
-//
-//    @Bean
-//    public CassandraClusterFactoryBean cassandraClusterFactoryBean() {
-//        CassandraClusterFactoryBean cassandraClusterFactoryBean = new CassandraClusterFactoryBean();
-//        cassandraClusterFactoryBean.setContactPoints("localhost");
-//        cassandraClusterFactoryBean.setMetricsEnabled(false);
-//        cassandraClusterFactoryBean.setPort(9142);
-//        return cassandraClusterFactoryBean;
-//    }
-//
-//    @Bean
-//    public CassandraMappingContext cassandraMappingContext() throws ClassNotFoundException {
-//        CassandraMappingContext cassandraMappingContext = new CassandraMappingContext();
-//        cassandraMappingContext.setInitialEntitySet(getInitialEntitySet());
-//        return cassandraMappingContext;
-//    }
-
 }

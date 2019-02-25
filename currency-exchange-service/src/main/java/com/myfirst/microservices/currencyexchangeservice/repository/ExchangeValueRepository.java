@@ -10,5 +10,5 @@ public interface ExchangeValueRepository extends CassandraRepository<ExchangeVal
 
     ExchangeValue findBy(final Integer id);
 
-    ExchangeValue queryFirstByConversionMultipleContaining();
+    ExchangeValue saveToDb();
   }
