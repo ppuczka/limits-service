@@ -1,0 +1,20 @@
+GET http://localhost:8000/{GET%20/currency-exchange/from/{from}/to/{to}}
+
+###
+
+GET http://localhost:8000/{GET%20/currency-exchange/from/{from}/to/{to}}
+
+###
+
+GET http://localhost:8000/{GET%20/currency-exchange/from/{from}/to/{to}}
+
+###
+
+GET http://localhost:8000/{GET%20/currency-exchange/from/{from}/to/{to}/}
+
+###
+
+GET http://localhost:8000/{GET%20/currency-exchange/from/{from}/to/{to}/}
+
+###
+

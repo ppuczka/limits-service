@@ -17,9 +17,9 @@ public class   CurrencyExchangeController {
 	@Autowired
 	private ExchangeValueRepository repository;
 
-	@GetMapping("/currency-converter/from/{from}/to/{to}/quantiy")
+	@GetMapping("currency-exchange/from/{from}/to/{to}")
 	public ExchangeValue retriveExchangeValue(@PathVariable String from, @PathVariable String to) {
-	ExchangeValue exchangeValue = repository.findBy(2);
+	ExchangeValue exchangeValue = repository.findBy(1);
 	exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
 	return exchangeValue;
 	}

@@ -9,6 +9,4 @@ import org.springframework.stereotype.Repository;
 public interface ExchangeValueRepository extends CassandraRepository<ExchangeValue, Integer> {
 
     ExchangeValue findBy(final Integer id);
-
-    ExchangeValue saveToDb();
-  }
+ }
