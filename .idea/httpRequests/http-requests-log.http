@@ -1,3 +1,31 @@
+GET http://localhost:8100/currency-converter/from/{from}/to/{to}/quantity/{quantity}
+
+###
+
+GET http://localhost:8100/currency-converter/from/{from}/to/{to}/quantity/{quantity}
+
+###
+
+GET http://localhost:8100/currency-converter-feign/from/{from}/to/{to}/quantity/{quantity}
+
+###
+
+GET http://localhost:8100/currency-converter-feign/from/{from}/to/{to}/quantity/{quantity}
+
+###
+
+GET http://localhost:8100/currency-converter/from/{from}/to/{to}/quantity/{quantity}
+
+###
+
+GET http://localhost:8100/currency-converter-feign/from/{from}/to/{to}/quantity/{quantity}
+
+###
+
+GET http://localhost:8100/currency-converter/from/{from}/to/{to}/quantity/{quantity}
+
+###
+
 GET http://localhost:8000/{GET%20/currency-exchange/from/{from}/to/{to}}
 
 ###
