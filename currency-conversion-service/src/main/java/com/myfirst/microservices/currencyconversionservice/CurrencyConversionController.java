@@ -38,6 +38,7 @@ public class CurrencyConversionController {
                 quantity.multiply(response.getConversionMultiple()), response.getPort());
     }
 
+    // http://localhost:8100/currency-converter-feign/from/USD/to/PLN/quantity/1000
     @GetMapping("/currency-converter-feign/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversionBean convertCurrencyFeign(@PathVariable String from, @PathVariable String to,
                                                        @PathVariable BigDecimal quantity) {
